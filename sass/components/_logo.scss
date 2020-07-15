@@ -2,21 +2,22 @@
     padding-top: 24px;
     padding-bottom: 25px;
 
+    font-family: Raleway, sans-serif;
+    font-weight: $basic-weight;
+    font-size: 26px;
+    line-height: 1.2;
     text-decoration: none;
 }
 
 .logo-black {
     color: $black-color;
-    font-family: Raleway, sans-serif;
-    font-weight: $basic-weight;
-    font-size: 26px;
-    line-height: 1.2;
 }
 
 .logo-blue {
     color: $accent-color;
-    font-family: Raleway, sans-serif;
-    font-weight: $basic-weight;
-    font-size: 26px;
-    line-height: 1.2;
+    
+}
+
+.logo .logo-white {
+    color: $white-color;
 }

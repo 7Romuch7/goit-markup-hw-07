@@ -1,0 +1,153 @@
+.footer {
+    background-color: $complementary-color5;
+}
+
+.data {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.container-address {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+ /* Address-list */
+
+ .address-list {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+
+    .location {
+        color: $white-color;
+        font-size: $basic-size;
+        line-height: 1.71;
+        text-decoration: none;
+        font-style: normal;
+    }
+
+    .dislocation {
+        margin-bottom: 9px;
+    }
+ }
+
+.email {
+    margin-bottom: 9px;
+}
+
+.info-2 {
+    color: $complementary-color;
+    font-size: $basic-size;
+    line-height: 1.71;
+    text-decoration: none;
+    font-style: normal;
+}
+
+/* Links-list-2 */
+
+.container-invitation {
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.invitation {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: $white-color;
+    font-weight: $basic-weight;
+    font-size: $basic-size;
+    line-height: 1.14;
+}
+
+.links-list-2 {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    .social-2 + .social-2 {
+        margin-left: 10px;
+    }
+
+    .social {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.social-list-2 {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: $complementary-color4;
+    fill: $white-color;
+
+    &:hover, &:focus {
+    background: $accent-color;
+    }
+}
+
+/* Form-mailing */
+
+.container-mailing {
+    padding-top: 72px;
+    padding-bottom: 94px;
+}
+
+.form-container {
+    display: flex;
+}
+
+.form-mailing input {
+    width: 358px;
+    height: 50px;
+    margin-right: 12px;
+
+    border: 1px solid $solid-color;
+    box-shadow: 0px 4px 4px $shadow-color4;
+    border-radius: 4px;
+    background-color: $complementary-color5;
+}
+
+.form-mailing input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: $complementary-color;
+}
+
+.input-mail {
+    padding-left: 16px;
+}
+
+.mailing {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 200px;
+    height: 50px;
+    padding: 10px 29px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    background-color: $accent-color;
+    color: $white-color;
+    font-weight: $basic-weight;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.88;
+    letter-spacing: 0.06em
+}
+
+.icon-mailing {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}

@@ -18,7 +18,7 @@
     justify-content: center;
     width: 170px;
     height: 90px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid $complementary-color8;
     border-radius: 4px;
 
     &:hover, &:focus {
@@ -32,11 +32,6 @@
 
     .customers-link:hover &,
     .customers-link:focus & {
-    fill: &accent-color;
+    fill: $accent-color;
     }
 }
-
-/*.customers-link:hover .icon,
-.customers-link:focus .icon {
-    fill: var(--accent-color);
-}*/
