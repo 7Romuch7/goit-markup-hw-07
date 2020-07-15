@@ -1,0 +1,95 @@
+.container-main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-nav {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 85px;
+    padding: 0;
+
+    &-item + &-item {
+        margin-left: 50px;
+    }
+}
+
+.link-1 {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: $basic-size;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    &:hover, &:focus {
+    color: $accent-color;
+    }
+
+    &.current {
+        color: $accent-color;
+    }
+}
+
+.active {
+    position: relative;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 4px;
+        width: 100%;
+        background-color: $accent-color;
+        border-radius: 2px;
+    }
+}
+
+.address-container {
+    margin-left: auto;
+}
+
+.auth-nav {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    &-item + &-item {
+    margin-left: 30px;
+    }
+}
+
+.icon-mail, .icon-phone {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.info {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+
+    color: $primary-text-color;
+    font-weight: 500;
+    font-size: $basic-size;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    font-style: normal;
+
+    &:hover, &:focus {
+    color: $accent-color;
+    }
+}
