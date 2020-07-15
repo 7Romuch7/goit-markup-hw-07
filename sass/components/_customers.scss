@@ -1,0 +1,42 @@
+.list-customers {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    justify-content: center;
+
+    &-item + &-item {
+        margin-left: 30px
+    }
+}
+
+.customers-link {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    &:hover, &:focus {
+        border-color: $accent-color;
+    }
+}
+
+.icon {
+    fill: $complementary-color8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .customers-link:hover &,
+    .customers-link:focus & {
+    fill: &accent-color;
+    }
+}
+
+/*.customers-link:hover .icon,
+.customers-link:focus .icon {
+    fill: var(--accent-color);
+}*/

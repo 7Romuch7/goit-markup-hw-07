@@ -1,0 +1,37 @@
+.activities {
+    padding-top: 0;
+}
+
+.activity-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    &-item + &-item {
+        margin-left: 30px
+    }
+}
+
+.activity-list-item {
+    position: relative;
+
+    .example {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 27px;
+        height: 70px;
+        width: 100%;
+    
+        background-color: $complementary-color6;
+        color: $white-color;
+        font-weight: $basic-weight;
+        font-size: $basic-size;
+        line-height: 1.14;
+        text-align: center;
+    }
+}
