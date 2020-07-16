@@ -1,0 +1,49 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    padding: 40px;
+    text-align: center;
+    
+    min-width: 528px;
+    min-height: 581px;
+    background-color: $white-color;
+    box-shadow: 0px 2px 1px $shadow-color,
+    0px 1px 1px $shadow-color3,
+    0px 1px 3px $shadow-color2;
+    border-radius: 4px;
+}
+
+.close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: inline-block;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid $solid-color4;
+    background-color: $white-color;
+
+    &:hover {
+        fill: $accent-color;
+        cursor: pointer;
+    }
+}
+
+.appeal {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    font-weight: $basic-weight;
+    font-size: 20px;
+    line-height: 1,15;
+    text-align: center;
+    color: $title-text-color;
+}

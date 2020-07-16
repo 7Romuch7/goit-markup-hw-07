@@ -1,0 +1,52 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0;
+
+    .filter-list + .filter-list {
+        margin-left: 8px;
+    }
+}
+
+.btn {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: 1px solid transparent;
+
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    font-family: $basic-font;
+
+    &:hover, &:focus {
+        color: $white-color;
+        background: $accent-color;
+    }
+}
+
+.first {
+    min-width: 73px;
+}
+
+.second {
+    min-width: 128px;
+}
+
+.third {
+    min-width: 145px;
+}
+
+.fourth {
+    min-width: 103px;
+}
+
+.fifth {
+    min-width: 130px;
+}
