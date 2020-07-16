@@ -63,10 +63,7 @@
 }
 
 .links-list-2 {
-    display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
+    @include centeredflex();
 
     .social-2 + .social-2 {
         margin-left: 10px;

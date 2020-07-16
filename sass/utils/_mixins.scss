@@ -4,3 +4,9 @@
     margin-bottom: 0;
     padding: 0;
 }
+
+@mixin basicposition($type: absolute) {
+    position: $type;
+    left: 0;
+    bottom: 0;   
+}

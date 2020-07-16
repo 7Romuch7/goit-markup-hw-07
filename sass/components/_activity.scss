@@ -15,9 +15,7 @@
     position: relative;
 
     .example {
-        position: absolute;
-        left: 0;
-        bottom: 0;
+        @include basicposition($type: absolute);
     
         margin-top: 0;
         margin-bottom: 0;
